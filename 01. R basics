@@ -1,0 +1,4 @@
+R is case sensitive
+
+# check data type
+  class()
