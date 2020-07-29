@@ -1,0 +1,17 @@
+# In R, you create a vector with the combine function c()
+> numeric_vector <- c(1, 2, 3)
+> character_vector <- c("a", "b", "c")
+> boolean_vector <- c(TRUE, FALSE, TRUE)
+
+# You can give a name to the elements of a vector with the names() function
+> some_vector <- c("John Doe", "poker player")
+> names(some_vector) <- c("Name", "Profession")
+      Name     Profession 
+    "John Doe" "poker player" 
+    
+# Selection by comparison
+> num <- c(1:6)
+> select_vector <- num < 4
+> small_num <- num[select_vector]
+[1] 1 2 3
+
