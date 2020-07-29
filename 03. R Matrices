@@ -1,0 +1,21 @@
+# Matrix sytax
+> matrix(1:9, byrow = TRUE, nrow = 3)
+
+# add names for the rows and the columns of a matrix
+> rownames(my_matrix) <- row_names_vector
+> colnames(my_matrix) <- col_names_vector
+
+# calculates the totals for each row(column) of a matrix
+  rowSums() colSums()
+  
+# add a column(row) or multiple columns(rows) to a matrix
+  cbind() rbind()
+  
+# Selection of matrix elements
+  my_matrix[1,2] selects the element at the first row and second column
+  my_matrix[1:3,2:4] results in a matrix with the data on the rows 1, 2, 3 and columns 2, 3, 4
+  my_matrix[,1] selects all elements of the first column
+  my_matrix[1,] selects all elements of the first row
+  
+# standard matrix multiplication
+  %*%
